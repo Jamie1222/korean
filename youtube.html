@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<title>Youtube Page</title>
+
+</head>
+<body>
+<div class="container">
+<h2>Youtube</h2>
+
+<h2>Shadowing</h2>
+
+
+<button class="collapsible">Bam Bam</button>
+<div class="content">
+  
+  <h3 class=“name”>Bam Bam</h3>
+  <p>Age: 26 </p>
+  <p>Speaking style: Clear,     eloquent, expressive.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-feFD3_hIHk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AFtbKUDZGWo" title="[EN/TH] 뱀뱀이 미래의 짝꿍과 오고 싶다는 레스토랑의 정체는? 럭셔리 배무맛집?! 스페셜원 EP.02 (BAMBAM, Special One, 카니랩, 파인다이닝)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nYQ5qCWXq4o" title="[EN] 연예계 깔끔 톱 티어 뱀뱀 집 방문 | 청소광브라이언 16화" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-feFD3_hIHk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s0wtcKiCvsk" title="[EN/TH] 뱀뱀이 직접 뱀집 가구 보러다니는 에피소드. 서울 가구투어, 스페셜원 EP.04 (BAMBAM, Special One, 디자인가구, 뱀집, 인테리어)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-feFD3_hIHk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<button class="collapsible">Brian</button>
+<div class="content">
+  <p></p>
+
+</div>
+
+<button class="collapsible">Brothers</button>
+<div class="content">
+  <p></p>
+</div>
+
+
+<button class="collapsible">Bangchan</button>
+<div class="content">
+  <p></p>
+</div>
+
+
+<button class="collapsible">Felix</button>
+<div class="content">
+  <p></p>
+</div>
+</div>
+
+<div class="container">
+  
+  <h2>Category</h2>
+  
+  
+  
+  <button class="collapsible">Name/item</button>
+  <div class="content">
+    <p></p>
+  
+  </div>
+</div>
+ 
+<div class="container">
+  
+  <h2>Category</h2>
+  
+  
+  
+  <button class="collapsible">Name/item</button>
+  <div class="content">
+    <p></p>
+  
+  </div>
+</div>
+
+<div class="container">
+  
+  <h2>Category</h2>
+  
+  
+  
+  <button class="collapsible">Name/item</button>
+  <div class="content">
+    <p></p>
+  
+  </div>
+</div>
+
+<div class="container">
+  
+  <h2>Webtoons</h2>
+  
+  <button class="collapsible">Viral Hit</button>
+  <div class="content">
+    <p></p>
+  
+  </div>
+</div>
+
+<div class="container">
+  
+  <h2>Category</h2>
+  
+  
+  
+  <button class="collapsible">Name/item</button>
+  <div class="content">
+    <p></p>
+  
+  </div>
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</body>
+</html>
